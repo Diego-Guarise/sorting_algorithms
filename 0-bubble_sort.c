@@ -2,7 +2,7 @@
 /**
   * bubble_sort - Write a function that sorts an array of
   * integers in ascending order using the Bubble sort algorithm
-  * @array: array int
+  * @array: array int.
   * @size: size_t
   */
 
@@ -16,7 +16,7 @@ void bubble_sort(int *array, size_t size)
 	for (i = 1; i < size - 1; i++)
 	{
 		for (x = 0; i < size - 1; x++)
-		{	
+		{
 			if (array[i] > array[i + 1])
 			{
 				tmp = array[i];

@@ -2,7 +2,7 @@
 /**
  * insertion_sort_list - Write a function that sorts a doubly linked list
  * of integers in ascending order using the Insertion sort algorithm
- * @list: Head
+ * @list: Head.
  */
 
 void insertion_sort_list(listint_t **list)
@@ -11,7 +11,7 @@ void insertion_sort_list(listint_t **list)
 
 	if ((*list)->next)
 		now = (*list)->next;
-		
+
 	while (now)
 	{
 		if (now->n > now->next->n)
