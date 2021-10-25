@@ -26,10 +26,10 @@ void insertion_sort_list(listint_t **list)
 			tmp->prev = tmp->prev->prev;
 			tmp->next->prev = tmp;
 
-			if (tmp->prev)
-				tmp->prev->next = tmp;
-			else
+			if (!tmp->prev)
 				*list = tmp;
+			else
+				tmp->prev->next = tmp;
 			print_list(*list);
 		}
 		now = now->next;
