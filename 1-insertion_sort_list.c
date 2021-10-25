@@ -9,7 +9,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *now, *tmp;
 
-	if (!list || !(*list) || !(*list)->next)
+	if (!list)
 		return;
 	
 	now = *list;
@@ -26,10 +26,10 @@ void insertion_sort_list(listint_t **list)
 		tmp->prev = tmp->prev->prev;
 		tmp->next->prev = tmp;
 
-		if (!tmp->prev)
-			*list = tmp;
-		else
+		if (tmp->prev)
 			tmp->prev->next = tmp;
+		else
+			*list = tmp;
 		print_list(*list);
 		}
 		now = now->next;
