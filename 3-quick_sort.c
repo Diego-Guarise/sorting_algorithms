@@ -8,9 +8,9 @@
  *@size: array size
  *Return: the value of the pivot
  */
-int part_array(int *array, int lo, int hi, size_t size)
+int quick_sort(int *array, size_t size)
 {
-    if (array || lo || hi || size)
+    if (array || size)
     {
         return (0);
     }
