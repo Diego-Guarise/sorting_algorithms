@@ -9,7 +9,7 @@
  */
 void counting_sort(int *array, size_t size)
 {
-	if (array || i || size)
+	if (array || size)
 	{
 		return;
 	}
