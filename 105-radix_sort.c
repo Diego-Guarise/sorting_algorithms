@@ -9,7 +9,7 @@ int countador_de_digitos(int i)
 {
     if (i)
     {
-        return;
+        return (0);
     }
     
 }

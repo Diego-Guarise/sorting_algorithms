@@ -11,7 +11,7 @@ int *count_array(int *array, size_t i, size_t size)
 {
     if (array || i || size)
     {
-        return;
+        return (0);
     }
     
 }

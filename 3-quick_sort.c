@@ -12,7 +12,7 @@ int part_array(int *array, int lo, int hi, size_t size)
 {
     if (array || lo || hi || size)
     {
-        return;
+        return (0);
     }
     
 }
