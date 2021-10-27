@@ -14,5 +14,4 @@ void print_merge(int *array, int *p1, int *p2, size_t size)
 	{
 		return;
 	}
-	
 }

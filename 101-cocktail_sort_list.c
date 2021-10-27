@@ -12,5 +12,4 @@ void nodo_intercambiador(listint_t **c, unsigned char m)
 	{
 		return;
 	}
-	
 }

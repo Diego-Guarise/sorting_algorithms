@@ -10,9 +10,9 @@
  */
 int quick_sort(int *array, size_t size)
 {
-    if (array || size)
-    {
-        return (0);
-    }
-    return (-1);
+	if (array || size)
+	{
+		return (0);
+	}
+	return (-1);
 }

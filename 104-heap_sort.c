@@ -13,5 +13,4 @@ void intercambiador_int(int *i, int *j, size_t size, int *array_1)
 	{
 		return;
 	}
-	
 }

@@ -14,5 +14,4 @@ void intercambiador_shell(int *array, size_t l, size_t size, size_t intervalo)
 	{
 		return;
 	}
-	
 }

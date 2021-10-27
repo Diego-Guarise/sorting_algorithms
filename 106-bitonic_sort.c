@@ -13,5 +13,4 @@ void orden(char arr, int *array, size_t size)
 	{
 		return;
 	}
-	
 }
