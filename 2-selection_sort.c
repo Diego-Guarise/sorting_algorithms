@@ -20,9 +20,9 @@ void selection_sort(int *array, size_t size)
 
 		if (now != a)
 		{
-			tmp = array[i];
-			array[i] = array[position];
-			array[position] = tmp;
+			tmp = array[a];
+			array[a] = array[now];
+			array[now] = tmp;
 			print_array(array, size);
 		}
 	}
