@@ -5,7 +5,7 @@
  *@i: number to count
  *Return: number of digits
  */
-void radix_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size)
 {
 	if (array || size)
 	{

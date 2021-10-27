@@ -8,7 +8,7 @@
  *@size: array size
  *Return: void
  */
-void merge_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size)
 {
 	if (array || size)
 	{

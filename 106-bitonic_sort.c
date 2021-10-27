@@ -7,7 +7,7 @@
  *@arr:check if the array is sorted
  * Return: void
  */
-void bitonic_sort(int *array, size_t size);
+void bitonic_sort(int *array, size_t size)
 {
 	if (array || size)
 	{

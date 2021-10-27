@@ -6,11 +6,10 @@
  *@size: array size
  *Return: the value of the pivot
  */
-void quick_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size)
 {
 	if (array || size)
 	{
-		return (0);
+		return;
 	}
-	return (-1);
 }

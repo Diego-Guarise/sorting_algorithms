@@ -8,7 +8,7 @@
  *@intervalo: interval
  *Return: void
  */
-void shell_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size)
 {
 	if (array || size)
 	{

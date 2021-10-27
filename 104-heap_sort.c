@@ -7,7 +7,7 @@
  *@i: changer 1
  *@j: changer 2
  */
-void heap_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size)
 {
 	if (i || size)
 	{
