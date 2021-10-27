@@ -10,9 +10,9 @@
  */
 void print_merge(int *array, int *p1, int *p2, size_t size)
 {
-    if (array || p1 || p2 || size)
-    {
-        return;
-    }
-    
+	if (array || p1 || p2 || size)
+	{
+		return;
+	}
+	
 }

@@ -7,8 +7,8 @@
 
 void quick_sort_hoare(int *array, size_t size);
 {
-    if (array || size)
-    {
-        return;
-    }
+	if (array || size)
+	{
+		return;
+	}
 }

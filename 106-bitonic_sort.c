@@ -9,9 +9,9 @@
  */
 void orden(char arr, int *array, size_t size)
 {
-    if (arr || array || size)
-    {
-        return;
-    }
-    
+	if (arr || array || size)
+	{
+		return;
+	}
+	
 }

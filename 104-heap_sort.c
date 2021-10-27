@@ -9,9 +9,9 @@
  */
 void intercambiador_int(int *i, int *j, size_t size, int *array_1)
 {
-    if (i || j || size || array_1)
-    {
-        return;
-    }
-    
+	if (i || j || size || array_1)
+	{
+		return;
+	}
+	
 }

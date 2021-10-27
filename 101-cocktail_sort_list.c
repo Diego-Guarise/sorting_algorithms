@@ -8,9 +8,9 @@
  */
 void nodo_intercambiador(listint_t **c, unsigned char m)
 {
-    if (c || m)
-    {
-        return;
-    }
-    
+	if (c || m)
+	{
+		return;
+	}
+	
 }

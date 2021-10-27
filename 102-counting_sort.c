@@ -9,9 +9,9 @@
  */
 int *count_array(int *array, size_t i, size_t size)
 {
-    if (array || i || size)
-    {
-        return (0);
-    }
-    return (-1);
+	if (array || i || size)
+	{
+		return (0);
+	}
+	return (-1);
 }

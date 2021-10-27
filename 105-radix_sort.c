@@ -7,9 +7,9 @@
  */
 int countador_de_digitos(int i)
 {
-    if (i)
-    {
-        return (0);
-    }
-    return (-1);
+	if (i)
+	{
+		return (0);
+	}
+	return (-1);
 }
