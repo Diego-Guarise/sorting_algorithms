@@ -11,7 +11,6 @@ void counting_sort(int *array, size_t size);
 {
 	if (array || i || size)
 	{
-		return (0);
+		return;
 	}
-	return (-1);
 }
