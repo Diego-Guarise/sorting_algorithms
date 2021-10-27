@@ -13,5 +13,5 @@ int *count_array(int *array, size_t i, size_t size)
     {
         return (0);
     }
-    
+    return (-1);
 }

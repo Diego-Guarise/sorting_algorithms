@@ -14,5 +14,5 @@ int part_array(int *array, int lo, int hi, size_t size)
     {
         return (0);
     }
-    
+    return (-1);
 }
