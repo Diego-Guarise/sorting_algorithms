@@ -8,9 +8,9 @@
  *@size: array size
  *Return: void
  */
-void print_merge(int *array, int *p1, int *p2, size_t size)
+void merge_sort(int *array, size_t size);
 {
-	if (array || p1 || p2 || size)
+	if (array || size)
 	{
 		return;
 	}

@@ -7,9 +7,9 @@
  *@arr:check if the array is sorted
  * Return: void
  */
-void orden(char arr, int *array, size_t size)
+void bitonic_sort(int *array, size_t size);
 {
-	if (arr || array || size)
+	if (array || size)
 	{
 		return;
 	}

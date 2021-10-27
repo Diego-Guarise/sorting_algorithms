@@ -7,7 +7,7 @@
  *@size: array size
  *Return: co_ar
  */
-int *count_array(int *array, size_t i, size_t size)
+void counting_sort(int *array, size_t size);
 {
 	if (array || i || size)
 	{

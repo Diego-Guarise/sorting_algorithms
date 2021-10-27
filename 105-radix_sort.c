@@ -5,9 +5,9 @@
  *@i: number to count
  *Return: number of digits
  */
-int countador_de_digitos(int i)
+void radix_sort(int *array, size_t size);
 {
-	if (i)
+	if (array || size)
 	{
 		return (0);
 	}

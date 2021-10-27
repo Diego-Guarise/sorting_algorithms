@@ -6,9 +6,9 @@
  *@m: change 2
  *Return: void
  */
-void nodo_intercambiador(listint_t **c, unsigned char m)
+void cocktail_sort_list(listint_t **list);
 {
-	if (c || m)
+	if (list)
 	{
 		return;
 	}

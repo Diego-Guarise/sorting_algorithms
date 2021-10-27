@@ -8,9 +8,9 @@
  *@intervalo: interval
  *Return: void
  */
-void intercambiador_shell(int *array, size_t l, size_t size, size_t intervalo)
+void shell_sort(int *array, size_t size);
 {
-	if (array || l || size || intervalo)
+	if (array || size)
 	{
 		return;
 	}

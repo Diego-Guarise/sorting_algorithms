@@ -7,9 +7,9 @@
  *@i: changer 1
  *@j: changer 2
  */
-void intercambiador_int(int *i, int *j, size_t size, int *array_1)
+void heap_sort(int *array, size_t size);
 {
-	if (i || j || size || array_1)
+	if (i || size)
 	{
 		return;
 	}
