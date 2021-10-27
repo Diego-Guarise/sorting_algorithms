@@ -9,7 +9,7 @@
  */
 void heap_sort(int *array, size_t size)
 {
-	if (i || size)
+	if (array || size)
 	{
 		return;
 	}
